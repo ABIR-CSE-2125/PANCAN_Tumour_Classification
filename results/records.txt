@@ -1,0 +1,24 @@
+logreg
+best_params :: {'clf__C': np.float64(0.21584494295802448), 'clf__class_weight': 'balanced', 'clf__penalty': 'l2', 'clf__solver': 'lbfgs'}
+best_score :: 0.8431889547360782
+test_accuracy :: 0.8863999955338829
+test_f1_macro :: 0.8827624368906615
+test_f1_weighted :: 0.9123178801532476
+svm
+best_params :: {'clf__C': np.float64(3.0561376917337064), 'clf__class_weight': 'balanced', 'clf__gamma': 'scale', 'clf__kernel': 'rbf'}
+best_score :: 0.869812051474097
+test_accuracy :: 0.8832150594347234
+test_f1_macro :: 0.8790503177479092
+test_f1_weighted :: 0.9133025643218163
+rf
+best_params :: {'clf__class_weight': 'balanced_subsample', 'clf__max_depth': 29, 'clf__min_samples_leaf': 3, 'clf__min_samples_split': 6, 'clf__n_estimators': 406}
+best_score :: 0.867516826619347
+test_accuracy :: 0.8785418199152417
+test_f1_macro :: 0.8758963165943556
+test_f1_weighted :: 0.9068325800959735
+mlp
+best_params :: {'clf__activation': 'tanh', 'clf__alpha': np.float64(0.002096737821583597), 'clf__early_stopping': True, 'clf__hidden_layer_sizes': (200, 100, 50), 'clf__learning_rate': 'adaptive', 'clf__learning_rate_init': np.float64(0.006924145688620425)}
+best_score :: 0.8634794004906915
+test_accuracy :: 0.8896447171988987
+test_f1_macro :: 0.8908134580211068
+test_f1_weighted :: 0.9176375648897099
